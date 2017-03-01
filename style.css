@@ -1,0 +1,10 @@
+
+body{	background: url("http://i.imgur.com/0rGQnyS.jpg");
+		background-size: cover;
+      	background-position: center;
+		text-align: center;
+	}
+.comingsoon{
+		color: #d13c7c;
+		text-shadow: 2px 2px black;
+}
