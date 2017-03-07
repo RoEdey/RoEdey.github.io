@@ -1,0 +1,55 @@
+.toppic {	
+		background-color: white;
+		background-size: cover;
+      	background-position: center;
+		text-align: center;
+		color: #B22222;
+		text-shadow: 1px 1px black;
+		font-family: Comic;
+		font-weight: bold;
+		font-size:2.5em;
+	}
+
+.backgroundpic:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.9);
+}
+
+.backgroundpic{
+	object-position: center;
+	border-radius: 15px;
+	max-width: 80%;
+    height: auto;
+}
+
+.thumbnails{
+	max-width:100%;
+	max-height: 100%;
+	border-radius: 15px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	width: 150px;
+}
+
+.thumbnails:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.9);
+}
+
+.col-sm-4 {
+	position:center;
+}
+
+p {
+	font-family:Georgia;
+	font-weight: bold;
+	font-size-adjust: auto;
+	object-position: center;
+}
+
+small {
+
+	position:center;
+	font-family:Georgia;
+	font-style: italic;
+	font-size-adjust: auto;
+}
+
