@@ -1,0 +1,23 @@
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b82e8a;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.nav li{
+	display: inline;
+	margin: 0px 15px 0px 15px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #000;
+  color: #fff;
+  transition: .3s background-color;
+ }
+
+ .nav a:hover {
+  background-color: #d65cae;
+}
