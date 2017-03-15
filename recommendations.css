@@ -1,5 +1,5 @@
 
-#navbar{
+.navbar navbar-inverse navbar-default{
 
     position:fixed;
     transition: all .5s ease;
@@ -8,36 +8,36 @@
     width: 100%;
     z-index: 999;
     margin: 0;
-    padding: 15px 0px 5px 0px;
+    padding: 0px 0px 5px 0px;
     background-color: #b82e8a;
+    font-color: #fff;
     border-bottom: 1px solid #000;
     text-align: center;
-    line-height: 10px;
-    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    -webkit-transition: height .5s, line-height .5s; 
     transition: height .5s, line-height .5s;
 
 }
-.NavContainer li{
+.container-fluid li{
 
   
   display: inline;
   text-align: center;
-	margin: 20px 15px 0px 15px;
-  padding: 10px 0px 0px
+	margin: 0px 15px 0px 15px;
+  padding: 0px 0px 0px
 
 }
-.NavContainer a {
+.container-fluid a {
 
   text-decoration: none;
   font-size: 1.5em;
   text-shadow: 2px 2px #000;
-  color: #fff;
+
   transition: .3s background-color;
   opacity: 1;
 
  }
 
- .NavContainer a:hover {
+ .container-fluid a:hover {
 
   background-color: #d65cae;
   font-weight:bold;
@@ -46,25 +46,39 @@
 
 .row{
 
-  margin: 50px 30px 30px 30px;
+  margin: 100px 50px 30px 50px;
 
 }
 
-.col-sm-4{
+.col-sm-3{
   outline-style: solid;
   outline-width: 3px;
   overflow: hidden;
-  max-height: 700px;
+  height: 250px;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  margin: 5px;
+
 }
 
-@media (max-width: 600px){
-  .sticky .menu{
+.col-sm-3:hover {
+
+  height: auto;
+
+
+}
+
+@media (max-width: 575px){
+  .navbar navbar-default{
     top: 0;
-    .hamburger{
-      background: #6E7982;
-      &::before, &::after{
-        background: #6E7982;
-      }
+    width:auto;
+    height: 30px;
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
     }
   }
+
 
