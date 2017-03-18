@@ -1,34 +1,8 @@
-
-.container-fluid li{
-
-  
-  display: inline;
-  text-align: center;
-	margin: 0px 15px 0px 15px;
-  padding: 0px 0px 0px
-
-}
-.container-fluid a {
-
-  text-decoration: none;
-  font-size: 1.5em;
-  text-shadow: 2px 2px #000;
-
-  transition: .3s background-color;
-  opacity: 1;
-
- }
-
- .container-fluid a:hover {
-
-  background-color: #d65cae;
-  font-weight:bold;
-
-}
+/* restaurant info boxes CSS */
 
 .row{
 
-  margin: 100px 50px 30px 50px;
+  margin: 100px 30px 30px 100px;
 
 }
 
@@ -49,9 +23,43 @@
 
   height: auto;
 
+}
+
+/*NavBar CSS */
+.container-fluid li{
+
+  
+  display: inline;
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  padding: 0px 0px 0px
 
 }
-@media (max-width:950px) {
+.container-fluid a {
+
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #000;
+
+  transition: .3s background-color;
+  opacity: 1;
+
+ }
+
+ .container-fluid a:hover {
+
+  background-color: #d65cae;
+  font-weight:bold;
+
+}
+@media (max-width: 950px){
+
+  .container-fluid a {
+    font-size:1em;
+  }
+}
+
+@media (max-width:700px) {
     .navbar-header {
         float: none;
     }
