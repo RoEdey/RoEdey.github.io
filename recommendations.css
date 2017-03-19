@@ -2,26 +2,34 @@
 
 .row{
 
-  margin: 100px 30px 30px 100px;
+  margin: 30px 0px 30px 0px;
 
 }
 
 .col-sm-3{
-  outline-style: solid;
-  outline-width: 3px;
   overflow: hidden;
   height: 250px;
-  float: left;
+  float: center;
   position: relative;
-  transition: height 0.5s;
-  -webkit-transition: height 0.5s;
-  margin: 5px;
+  /*transition: height 0.5s; 
+  -webkit-transition: height 0.5s; */
+  margin: 0px;
+  z-index: 0.1;
+  border:3px solid white;
+  border-radius: 10px;
+  color: black;
 
+}
+
+.col-sm-3 text{
+
+  position:absolute;
 }
 
 .col-sm-3:hover {
 
   height: auto;
+  width: 500px;
 
 }
 
@@ -165,4 +173,161 @@
     color: #000000;
     background-color: #a7297e;
   }
+}
+
+
+ /* background images */
+
+#dishoom {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/DyFO0lg.jpg?1);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#homeslice {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/sDnlVz6.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#sushisamba {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/xEkm6y0.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#plumandsplitmilk {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/1bkyDsj.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#thaitho {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/Y42zzn9.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#sketch {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/g7yDBLP.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#theledbury {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/eOmU7KE.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#cut45 {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/A4XEtYD.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#momo {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/xuyRmTl.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+#aquashard {
+  background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+    url(http://i.imgur.com/NYV2pIg.jpg);
+
+  background-size: cover;
+  position: relative;
+
+}
+
+/* text description */
+
+h1{
+
+  color: black
+  text: solid;
+}
+
+/* Footer CSS */
+footer { 
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 30px;
+    padding-left: 10px;
+
+}
+.likeus{
+
+    float: right;
+    padding-right: 15px;
+
 }
