@@ -7,6 +7,9 @@
 <!-- Latest compiled and minified CSS -->
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  	 	<link rel="stylesheet" type="text/css" href="PopPage.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="PopPage.js"></script>	
+
 
 </head>
 
@@ -21,7 +24,7 @@
 				  <li><a href="LandingPage.html">Home</a></li>
 				  <li><a href="our_recommendations.html">Our Recommendations </a></li>
 				  <li><a href="Recommendations.html">Your Recommendations </a></li>
-				  <li><a href="PopPage.html">Horror Horror!!</a></li>
+				  <li><a href="PopPage.html">She Said WHAT?!</a></li>
 				  <li><a href="">Sign up!</a></li>
 		      </ul>
 		  </div>
@@ -29,28 +32,58 @@
 	</nav>
 
 	<div class="toppic">
-	<h1>Horror!! Horror!!!</h1>
-		<h2>We have all had one of those dates that where we wanted to just scream and run away... here are some of our favourite ones that you have shared with us...</h2>
+	<h1>She said WHAT?!...</h1>
+		<h2>We have all been on one of those dates where we have seriously considered the repercussions of climbing out of the bathroom window to escape... You shared some of your funniest, awkward and down right horrifying stories with us. Here are some of our favourite ones...</h2>
 		<h2>Let us know what made you chuckle, chotle, or even cry!</h2>
 	</div>
 
 <div class='row'>
 	  <div class='col-sm-12'>
 	      <img class='thumbnails' src='images/scream.jpeg'>
+	      <h3>I want that one...</h3>
 	      <p>I was meeting a man from Tinder, we were meeting in a local pub. When I arrived he told me he was already there wearing a burgandy hat... I found a man, who looked like his pictures sitting alone in a reddish hat, so assumed it was him. I sat down, started chatting (immediately, he was super hot!), when I realised he was looking at me strangely. On closer inspection... it was the WRONG MAN. I went bright red, made my apologies and ran away. The horror story ends well though, his friend bumped into me on my way to the loo and gave me his number, we've been dating ever since ;)</p>
-	      <small>Miss X, London</small>
-	  </div>
+	      <ul class="likelist">
+		      <li><small>Miss X, London</small></li>
+		      <li><button type="button" id="LikeButton1" class="AllLikes"> 
+		      Like! Like!</button>
+		      <small class="LikeCounter1">769</small></li>
+	      	<label class="commentsbox">Comment Box</label>
+	      	<form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+	      	<br><textarea rows="4" cols="50" name="comment" form="usrform">Tell us what you thoughts...</textarea>
+	  	</ul>
+	  	</div>
+
+
 	  <div class='col-sm-12' >
 	      <img class='thumbnails' src='images/why.png'>
+	      <h3>Oh, I don't eat that..</h3>
 	      <p>It was my first date with this guy that my friend set me up with. We decided it would be fun if I picked the date venue. I thought long and hard about it and decided that all men love stake, right? Wrong. We arrive at the restaurant that specialises in all things meaty, as we look at the menu I am excited and all the delicious treats make me feel like I've made the correct choice. Wrong again. He was VEGAN. He couldn't even drink the wine. We stuck it out and he ended up having bread and soda water, as I tried to not salivate too much over my beef...</p>
-	      <small>Miss Y, London</small>
+	      <ul class="likelist">
+		      <li><small>Miss Y, London</small></li>
+	      	  <li><button type="button" id="LikeButton2" class="AllLikes"> Like! Like!</button>
+	      	  <small class="LikeCounter2">554</small></li>
+	      	  <li>
+	      	  <div class="commentbox"><label>Comment Box</label>
+	      	  <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname">
+	      	  <form><input class="form-control" type="text" placeholder="Tell us your thoughts... " />
+              <button class="AllLikes">Add</button>
+            </div>
+        	</form></li>
+	      </ul>
 	  </div>
+	  
+
+
 	  <div class='col-sm-12'>
 	      <img class='thumbnails' src='images/oops.jpeg'>
 	      <p></p>
 	      <small>Miss Z, London</small>
+	      <button type="button" id="LikeButton3" class="AllLikes"> Like! Like!</button>
+	     <small class="LikeCounter3">324</small>
+
+
 	  </div> 
  </div>		
-
+	
 </body>
 </html>
