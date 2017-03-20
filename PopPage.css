@@ -209,6 +209,7 @@
 	padding: 50px;
 	margin-left: 15px;
 	margin-right: 20px;
+	border-top:solid;
 
 }
 
@@ -269,14 +270,16 @@ small {
     font-size: 16px;
 }
 
-.likelist li {
-  list-style: none;
+.likelist ul {
+  list-style: center;
   padding-bottom: 10px;
-  float:center;
+  float:none;
 }
 .commentbox{
     float:center;
     padding:20px 20px 20px 20px;
 }
 
-
+.likeclass{
+	padding:20px 0px 20px 0px;
+}
