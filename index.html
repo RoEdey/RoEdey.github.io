@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>That's what she said</title>	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/lib/w3.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	</head>
+	
+	<body>
+	<!-- <div style="width:fill;height:350px;border:1px solid #000;padding: 100px; margin-bottom: 20px;">	
+	</div> -->	
+	
+			<div class="carousel col-m-1">
+	  			<img class="LondonImage" src="http://i.imgur.com/VdGSDNV.jpg" >
+	  			<img class="LondonImage" src="http://i.imgur.com/tweKubE.jpg" >
+	  			<img class="LondonImage" src="http://i.imgur.com/QWXrQTr.jpg" >
+	  			<img class="LondonImage" src="http://i.imgur.com/nvTp1kS.jpg" >
+
+			<h1 class="title display-3">That's what she said</h1>
+			</div>
+	
+			
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("LondonImage");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+	<div class='row'; style="margin: 5px 40px 5px 40px;">
+		  <div class='col-sm-4'>
+
+		      <h3><a href="our_recommendations.html">Our Recommendations</a></h3>
+		      <small>Get inspired by our date ideas</small>
+		  </div>
+		  <div class='col-sm-4'>
+		      <h3><a href="ENTER FILE NAME HERE">Your recommendations</a></h3>
+		      <small>Help a sister out! Leave your great suggestions here</small>
+		  </div>
+		  <div class='col-sm-4'>
+		      <h3><a href="PopPage.html">Horror Stories</a></h3>
+		      <small>Weve all got them... share your dating horror stories here!</small>
+		  </div> 
+ 	</div>		
+	</body>
+
+</html>
