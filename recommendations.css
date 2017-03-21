@@ -60,7 +60,22 @@
       top: 0;
       width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+ h1{
+
+  font-weight: bold;
+  text-shadow: 1px 1px gray;
+
+ }
+
+ text{
+
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+
+ }
+>>>>>>> refs/remotes/origin/master
 
  .container-fluid a:hover {
 
@@ -183,29 +198,7 @@
   }
 }
 
-/* under the navbar */
-.toppic { 
-    text-align: center;
-    color:white;
-    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-    margin-top:50px;
-    background-size: cover;
-    border-bottom:solid;
-;
-  }
 
-.toppic h1 {
-  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-  padding: 50px 20px 50px 20px;
-  outline-style: solid;
-  outline-width: 5px;
-  outline-color: white;
-  font-size:50px;
-  letter-spacing: 8px;
-  background-color:#b82e8a;
-
-}
  /* background images */
 
 #dishoom {
@@ -344,17 +337,9 @@
 
 h1{
 
-  font-weight: bold;
-  text-shadow: 1px 1px gray;
-  font-family: "trebuchet MS","andale mono", "Calibri", "serif";
-
- }
-
- text{
-
-  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-
- }
+  color: black
+  text: solid;
+}
 
 /* Footer CSS */
 footer { 

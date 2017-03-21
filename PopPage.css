@@ -1,36 +1,55 @@
 
-
-
-/*General CSS for nav bar*/
+/*CSS for Nav Bar*/
 .container-fluid li{
   display: inline;
-  text-align: center;
-  margin: 0px 15px 0px 15px;
+  text-align: center; 
+  margin: 0px 5px 0px 5px;
   padding: 0px 0px 0px
-  
-}
+  width: 100%;
 
-.container-fluid a {
+}
+.container-fluid a { 
   text-decoration: none;
+  display: inline;
+  font-size: 1.2em;
   text-shadow: 2px 2px #000;
   transition: .3s background-color;
   opacity: 1;
+ }
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+ h1{
+
+  font-weight: bold;
+  text-shadow: 1px 1px gray;
+
+ }
+
+ text{
+
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
 
  }
 
  .container-fluid a:hover {
-  background-color: #d65cae;
+
+  background-color: #cc339a;
   font-weight:bold;
+
 }
 
-/*Rules for when screen gets to a certain size */
+/*rules for when screen changes size*/
 @media (max-width: 950px){
-  .container-fluid a {
+
+  .container-fluid a {  
     font-size:1em;
   }
 }
 
-/*rules for when screen 700px*/
+
 @media (max-width:700px) {
     .navbar-header {
         float: none;
@@ -68,18 +87,18 @@
     }
 }
 
+
 .navbar-default {
   background-color: #b82e8a;
   border-color: #a7297e;
-  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
 }
-/*.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
-}*/
+}
 .navbar-default .navbar-text {
   color: #ffffff;
 }
@@ -137,19 +156,6 @@
     color: #000000;
     background-color: #a7297e;
   }
-}
-
-.dropdown {
-    position: left;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 
