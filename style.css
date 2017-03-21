@@ -3,6 +3,7 @@ body{	background: url("http://i.imgur.com/0rGQnyS.jpg");
 		background-size: cover;
       	background-position: center;
 		text-align: center;
+	background-repeat: no-repeat;
 	}
 .comingsoon{
 		color: #d13c7c;
