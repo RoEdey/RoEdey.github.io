@@ -2,7 +2,7 @@
 
 .row{
 
-  margin: 50px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
 
 }
 
@@ -60,6 +60,9 @@
       top: 0;
       width: 100%;
   }
+<<<<<<< HEAD
+
+=======
  h1{
 
   font-weight: bold;
@@ -72,6 +75,7 @@
   font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
 
  }
+>>>>>>> refs/remotes/origin/master
 
  .container-fluid a:hover {
 
