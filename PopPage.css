@@ -17,6 +17,64 @@
   opacity: 1;
  }
 
+.navbar-inverse {
+    background-color: rgba(32, 35, 41,0.8);
+}
+bootstrap.css:4759
+.navbar-inverse {
+    background-color: #222222;
+    border-color: #080808;
+}
+bootstrap.css:4439
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+bootstrap.css:4424
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+bootstrap.css:4280
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('images/fruit-and-veg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h1 {font: time-new-roman;
+
+}
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #eeeeee;
+}
+.buzz
+text-center {
+    text-align: center;
+}
+
+.bluebox 
+{background-color: rgba(32, 35, 41, 0.9);
+}
+
 .affix {
       top: 0;
       width: 100%;
