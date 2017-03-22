@@ -197,7 +197,15 @@
 
  /* background images */
 
-#dishoom {
+/* not sure if i need this bit 
+  
+  #dishoom {
+  
+  position: relative;
+}
+*/
+
+.dishoom-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -206,10 +214,17 @@
     url(http://i.imgur.com/DyFO0lg.jpg?1);
 
   background-size: cover;
-  position: relative;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#homeslice {
+
+
+.homeslice-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -219,8 +234,12 @@
 
   background-size: cover;
   position: relative;
-  background-opacity: 0.3;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
 #sushisamba {
