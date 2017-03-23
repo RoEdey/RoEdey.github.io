@@ -6,6 +6,7 @@
   padding: 0px 0px 0px
   width: 100%;
   color: #e29898;
+   background-color: #b82e8a;
 
 }
 .container-fluid a { 
@@ -128,7 +129,7 @@ footer {
     display: block;
     background-color: #b82e8a;
     color: #ffffff;
-    height: 30px;
+    height: 60px;
     padding-left: 10px;
 
 
@@ -141,16 +142,19 @@ footer {
   background-color: #00acee;
   border-color: #009ad5;
   color: white;
+  position: left;
 }
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
   color: white;
+  position: left;
 }
 
 .btn-pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
+  position: left;
 }
