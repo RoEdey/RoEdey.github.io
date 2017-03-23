@@ -60,9 +60,8 @@
       top: 0;
       width: 100%;
   }
-<<<<<<< HEAD
 
-=======
+
  h1{
 
   font-weight: bold;
@@ -73,11 +72,9 @@
  text{
 
   font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+}
 
- }
->>>>>>> refs/remotes/origin/master
-
- .container-fluid a:hover {
+.container-fluid a:hover {
 
   background-color: #cc339a;
   font-weight:bold;
@@ -198,7 +195,44 @@
   }
 }
 
+/*body */
+.toppic { 
+    text-align: center;
+    color:white;
+    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+    margin-top:50px;
+    background-size: cover;
+    border-bottom:solid;
+;
+  }
 
+.toppic h1 {
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  padding: 50px 20px 50px 20px;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: white;
+  font-size:50px;
+  letter-spacing: 8px;
+  background-color:#b82e8a;
+
+/*  
+  
+  border:solid;
+  border-width: 5px;
+  line-height:100%;
+  position:relative;*/
+}
+
+.toppic h2{
+  font-style: italic;
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  font-size:20px;
+  color:black;
+  margin: 30px 30px 30px 30px;
+
+}
  /* background images */
 
 /* not sure if i need this bit 
@@ -246,7 +280,7 @@
   overflow: hidden;
 }
 
-#sushisamba {
+.sushisamba-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -256,11 +290,15 @@
 
   background-size: cover;
   position: relative;
-  background-opacity: 0.3;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#plumandsplitmilk {
+.plumandsplitmilk-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -270,11 +308,15 @@
 
   background-size: cover;
   position: relative;
-  background-opacity: 0.3;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#thaitho {
+.thaitho-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -284,10 +326,15 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#sketch {
+.sketch-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -297,10 +344,15 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#theledbury {
+.theledbury-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -310,10 +362,15 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#cut45 {
+.cut45-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -323,10 +380,15 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#momo {
+.momo-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -336,10 +398,15 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
-#aquashard {
+.aquashard-image {
   background: 
             linear-gradient(
             rgba(0, 0, 0, 0.3),
@@ -349,7 +416,12 @@
 
   background-size: cover;
   position: relative;
-
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity: 0.5;
+  overflow: hidden;
 }
 
 /* text description */
