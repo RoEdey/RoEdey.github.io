@@ -36,6 +36,11 @@
 	font-size:50px;
 	letter-spacing: 8px;
 	background-color:cornflowerblue;
+}
+
+.twitter-timeline" {
+position:center;
+}
 
 /*	
 	
@@ -293,6 +298,11 @@ small {
 	margin-bottom: 20px;
 	overflow: hidden;
 
+}
+
+.jumbotron {
+	position: center;
+	background-color: #e29898;
 }
 
 p {
