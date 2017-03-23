@@ -124,6 +124,14 @@ p {
 }
 
 
+footer { 
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 30px;
+    padding-left: 10px;
+
+
 }
 #social-buttons {
   margin-top: 50px;
