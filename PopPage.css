@@ -34,6 +34,10 @@
 
  }
 
+.brandpic{
+  height: 150%;
+}
+
  .container-fluid a:hover {
 
   background-color: #cc339a;
@@ -180,13 +184,6 @@
 	font-size:50px;
 	letter-spacing: 8px;
 	background-color:#b82e8a;
-
-/*	
-	
-	border:solid;
-	border-width: 5px;
-	line-height:100%;
-	position:relative;*/
 }
 
 .toppic h2{
@@ -209,14 +206,24 @@
 	margin-right:15px;
 }
 
-.col-sm-12 {
-	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	position:center;
-	padding: 50px;
-	margin-left: 15px;
-	margin-right: 20px;
-	border-top:solid;
+.row{
+  margin: 30px 0px 30px 0px;
+}
 
+.col-sm-4 {
+	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+	padding: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+  float:center;
+  overflow: scroll;
+  height: 250px;
+  transition: height 0.5s; 
+  -webkit-transition: height 0.5s; 
+  margin: 0px;
+  z-index: 0.1;
+  border-top:solid black;
+  color: black;
 }
 
 
@@ -243,8 +250,15 @@ small {
 	margin-right: 20px;
 }
 
+.commentsBox{
+  border-top:solid;
+  border-top-width:1px;
+  padding-top: 10px;
+  float:left;
+}
+
 .commentsbox {
-	padding-top: 20px;
+  font-size:20px;
 }
 
 
@@ -259,14 +273,15 @@ small {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
+    border-radius: 10px;
+    margin:10px;
 }
 
 .AllLikes:hover {
-	    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.9);
+	    box-shadow: 0 0 2px 1px rgba(36, 84, 52, 0.9);
 	}
 
-.LikeCounter1{
+.counterStyle{
 	border:dotted;
 	border-color: #d65cae;
 	padding: 7px 15px;
@@ -274,18 +289,52 @@ small {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-
-.likelist ul {
-  list-style: center;
-  padding-bottom: 10px;
-  float:none;
-}
-.commentbox{
-    float:center;
-    padding:20px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 .likeclass{
 	padding:20px 0px 20px 0px;
+}
+
+
+/* Footer CSS */
+footer { 
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 50px;
+    width:100%;
+
+
+}
+.likeus{
+    float: right;
+    padding-right: 15px;
+}
+
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+.pic-footer {
+    width: 25px;
+    height: 25px;
 }

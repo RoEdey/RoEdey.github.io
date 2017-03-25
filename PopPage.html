@@ -29,52 +29,28 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html">SS...</a>
+	      <a class="navbar-brand" href="index.html"> <img class="brandpic" src="http://i.imgur.com/zxazJjj.png"></a>
 	    </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="our_recommendations.html">We Said...</a></li>
-		<li><a href="##">You Said...</a></li>
+		<li><a href="your_recommendations.html">You Said...</a></li>
 		<li><a href="PopPage.html">She Said..WHAT?!</a></li>
 		<li><a href="">Sign Up</a></li>
       </ul>
 
       
-      <form class="navbar-form navbar-right" >
-       <!-- About us
-      
-        <ul class="nav navbar-nav">
-        	<li class="active"><a href="##">About Us</a></li>
-      	</ul> 
-
-       -->
-
+      <form class="navbar-form navbar-right">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          	<input type="text" class="form-control" placeholder="Search">
+        	<button type="submit" class="btn btn-default">Submit</button>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
       </form> 
-      		</ul> 
-	  		</div>
-		</div>	
- </div>
+<!--       		</ul> 
+ --></div>
+</div>	
 </nav>
-
-      <!-- Below is the about us button, if we want to include it. 
-      </ul>
-      <form class="navbar-form navbar-right" >
-        <ul class="nav navbar-nav">
-        	<li class="active"><a href="##">About Us</a></li>
-      	</ul> -->
-
-        <!-- Below is the search button funtion, if we want to include it.
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
-      
 
 <!-- the main body  -->
 	<div class="container-fluid">
@@ -84,8 +60,8 @@
 		<h2>Let us know what made you chuckle, chotle, or even cry!</h2>
 	</div>
 
-<div class='row' class="container-fluid">
-	  <div class='col-sm-12'>
+<div class='row'>
+	  <div class='col-sm-4'>
 	      <img class='thumbnails' src='images/scream.jpeg'>
 	      <h3>I want that one...</h3>
 	      <p>I was meeting a man from Tinder, we were meeting in a local pub. When I arrived he told me he was already there wearing a burgandy hat... I found a man, who looked like his pictures sitting alone in a reddish hat, so assumed it was him. I sat down, started chatting (immediately, he was super hot!), when I realised he was looking at me strangely. On closer inspection... it was the WRONG MAN. I went bright red, made my apologies and ran away. The horror story ends well though, his friend bumped into me on my way to the loo and gave me his number, we've been dating ever since ;)</p>
@@ -96,50 +72,140 @@
 		      <div class="likeclass">
 		      <button type="button" id="LikeButton1" class="AllLikes">
 		      Like! Like!</button>
+		      <div class="counterStyle">
 		      <small class="LikeCounter1">769</small>
 		      </div>
+		      </div>
 		      
-		      <div>
-			      <label class="commentsbox">Comment Box</label>
+		      <div class="commentsBox">
+			      <label class="commentsbox">Have your say...</label>
 			      	<form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
-			      	<br><textarea rows="4" cols="50" name="comment" form="usrform">Tell us what you thoughts...</textarea>
+			      	<br><textarea class="commentsAdded" rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
 		      </div>
 		     
 		     </div>
 	  </div>
 
 
-	  <div class='col-sm-12' >
+	  <div class='col-sm-4' >
 	      <img class='thumbnails' src='images/why.png'>
 	      <h3>Oh, I don't eat that..</h3>
 	      <p>It was my first date with this guy that my friend set me up with. We decided it would be fun if I picked the date venue. I thought long and hard about it and decided that all men love stake, right? Wrong. We arrive at the restaurant that specialises in all things meaty, as we look at the menu I am excited and all the delicious treats make me feel like I've made the correct choice. Wrong again. He was VEGAN. He couldn't even drink the wine. We stuck it out and he ended up having bread and soda water, as I tried to not salivate too much over my beef...</p>
-	      <ul class="likelist">
-		      <li><small>Miss Y, London</small>
-		      </li>
-	      	  <li><button type="button" id="LikeButton2" class="AllLikes"> Like! Like!</button>
-	      	  <small class="LikeCounter2">554</small>
-	      	  </li>
-	      	  <li>
-	      	  <div class="commentbox"><label>Comment Box</label>
-	      	  <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname">
-	      	  <form><input class="form-control" type="text" placeholder="Tell us your thoughts... "></form>
-              <button class="AllLikes">Add</button>
-              </div>
-        	  </form>
-        	  </li>
-	      </ul>
+
+	      <div class="likelist">
+		      <small>Miss Y, London</small>
+
+		      <div class="likeclass">
+		      <button type="button" id="LikeButton2" class="AllLikes">
+		      Like! Like!</button>
+		      	<div class="counterStyle">
+		      	<small class="LikeCounter2">554</small>
+		      	</div>
+		      </div>
+		      
+		      <div class="commentsBox">
+			      <label class="commentsbox">Have your say...</label>
+			      	<form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+			      	<br><textarea rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
+		      </div>
+		   </div>
 	  </div>
 	  
-	  <div class='col-sm-12'>
+	  <div class='col-sm-4'>
+	      <img class='thumbnails' src='images/really.jpeg'>
+	      <p></p>
+	      	  <div class="likelist">
+			      <small>Miss Z, Galway</small>
+
+			      <div class="likeclass">
+			      <button type="button" id="LikeButton3" class="AllLikes">
+			      Like! Like!</button>
+			      <div class="counterStyle">
+			      <small class="LikeCounter3">324</small>
+			      </div>
+			      </div>
+		      
+			      <div class="commentsBox">
+				      <label class="commentsbox">Have your say...</label>
+				      <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+				      <br><textarea rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
+			      </div>
+		   		</div>
+	 </div> 
+	 <div class='col-sm-4'>
+	      <img class='thumbnails' src='images/omg.jpeg'>
+	      <p></p>
+	      	  <div class="likelist">
+			      <small>Miss AB, Glasgow</small>
+
+			      <div class="likeclass">
+			      <button type="button" id="LikeButton4" class="AllLikes">
+			      Like! Like!</button>
+			      <div class="counterStyle">
+			      <small class="LikeCounter4">123</small>
+			      </div>
+			      </div>
+		      
+			      <div class="commentsBox">
+				      <label class="commentsbox">Have your say...</label>
+				      <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+				      <br><textarea rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
+			      </div>
+		   		</div>
+	 	</div> 
+
+	 	<div class='col-sm-4'>
 	      <img class='thumbnails' src='images/oops.jpeg'>
 	      <p></p>
-	      <small>Miss Z, London</small>
-	      <button type="button" id="LikeButton3" class="AllLikes"> Like! Like!</button>
-	     <small class="LikeCounter3">324</small>
+	      	  <div class="likelist">
+			      <small>Miss CJ, Brighton</small>
 
+			      <div class="likeclass">
+			      <button type="button" id="LikeButton5" class="AllLikes">
+			      Like! Like!</button>
+			      <div class="counterStyle">
+			      <small class="LikeCounter5">59</small>
+			      </div>
+			      </div>
+		      
+			      <div class="commentsBox">
+				      <label class="commentsbox">Have your say...</label>
+				      <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+				      <br><textarea rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
+			      </div>
+		   		</div>
+	 	</div> 
 
-	  </div> 
- </div>	
- </div>
+	 	<div class='col-sm-4'>
+	      <img class='thumbnails' src='images/Free.jpeg'>
+	      <p></p>
+	      	  <div class="likelist">
+			      <small>Miss KM, Birmingham</small>
+
+			      <div class="likeclass">
+			      <button type="button" id="LikeButton6" class="AllLikes">
+			      Like! Like!</button>
+			      <div class="counterStyle">
+			      <small class="LikeCounter6">10</small>
+			      </div>
+			      </div>
+		      
+			      <div class="commentsBox">
+				      <label class="commentsbox">Have your say...</label>
+				      <form action="/action_page.php" id="usrform">Your Name: <input type="text" name="usrname"><input class="AllLikes" class="submitposition" type="submit"></form>
+				      <br><textarea rows="4" cols="35" name="comment" form="usrform">Let us know what you think...</textarea>
+			      </div>
+		   		</div>
+	 	</div> 
+</div>
+</div>
+</div>
+
+<footer>
+  <p>
+    Created by Elhaam, Lucy and Rosy <span class="likeus">Like us on <button class='btn-facebook' href="https://www.facebook.com/Thats-What-She-Said-CFG-1896473753898814/?fref=ts"><img class='pic-footer' src="images/facebook.jpeg"</button> <button class='btn-twitter'><img class='pic-footer' src="images/twitter.png"></button> <button class='btn-pinterest'><img class='pic-footer' src="images/pintrest.png"></button></span> 
+  </p>
+</footer>
+
 </body>
 </html>
