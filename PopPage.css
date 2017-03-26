@@ -21,6 +21,7 @@
       top: 0;
       width: 100%;
   }
+
  h1{
 
   font-weight: bold;
@@ -223,6 +224,7 @@
   margin: 0px;
   z-index: 0.1;
   border-top:solid black;
+  border-width:1px;
   color: black;
 }
 

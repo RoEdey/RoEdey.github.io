@@ -1,45 +1,35 @@
 /* Our CSS booyakasha*/
 
 .LondonImage {
-	
 	max-width: 100%;
 	position: absolute;
 	top: -50%;
-	
 }
 
 .carousel {
-
 	height: 400px;
-	
 	margin-bottom: 20px;
 	overflow: hidden;
-	
 }
 
 .title {
-
 	position: absolute;
 	left: 20%;
 	right: 20%;
 	top: 60%;
 	font-size: 6vw;
 	color: #fff;
-
 }
 
-/*h1{
-
+h3 a{
 	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 	padding: 0px 20px 0px 20px;
-	outline-style: solid;
+/*	outline-style: solid;
 	outline-width: 5px;
-	outline-color: white;
+	outline-color: white;*/
 	align-content: auto;
-
-*/
-/*}*/
+	color:#cc339a;
+}
 
 .brandpic{
 	width: 50%;
@@ -61,27 +51,72 @@
 	.col-m-1{
 
 		height: 60%;
-
 	}
+	.brandpic{
+	width: 50%;
+    height: 50%;
+    }
 
 }
 
 @media (max-width: 650px){
-
 	.col-m-1{
 		max-height: 200px;
 	}
 	.title{
 		top: 40%;
-
 	}
-	h1{
+/*	h1{
 		outline-style: solid;
 		outline-width: 3px;
 		outline-color: white;
 		color:#cc339a;
 	    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+	}*/
+}
 
 
-	}
+
+/* Footer CSS */
+footer { 
+ 	position:fixed;
+   	left:0px;
+   	bottom:0px;
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 50px;
+    width:100%;
+}
+
+.likeus{
+    float: right;
+    padding-right: 15px;
+}
+
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+.pic-footer {
+    width: 25px;
+    height: 25px;
 }
