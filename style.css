@@ -28,7 +28,7 @@
 
 }
 
-h1{
+/*h1{
 
 	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
 	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
@@ -36,11 +36,15 @@ h1{
 	outline-style: solid;
 	outline-width: 5px;
 	outline-color: white;
-	fill: ;
 	align-content: auto;
 
+*/
+/*}*/
 
-}
+.brandpic{
+	width: 50%;
+    height: 50%;
+    }
 
 @media (max-width: 900px){
 
@@ -75,6 +79,9 @@ h1{
 		outline-style: solid;
 		outline-width: 3px;
 		outline-color: white;
+		color:#cc339a;
+	    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+
 
 	}
 }
