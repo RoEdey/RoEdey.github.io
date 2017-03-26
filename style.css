@@ -66,6 +66,7 @@ h1{
 
 	.col-m-1{
 		max-height: 200px;
+		height: 100%;
 	}
 	.title{
 		top: 40%;
@@ -77,4 +78,5 @@ h1{
 		outline-color: white;
 
 	}
+	
 }
