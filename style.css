@@ -21,8 +21,34 @@
 	color: #fff;
 }
 
-h3 a{
+.brandpic{
+	width: 50%;
+    height: 50%;
+    }
+
+body{
 	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+}
+
+.intotext{
+	margin:25px;
+	text-align: center;
+}
+
+h3{
+	padding:10px;
+}
+
+.threepoints{
+	margin-top:50px;
+}
+
+h5{
+	padding:10px;
+}
+
+
+h3 a{
 	padding: 0px 20px 0px 20px;
 /*	outline-style: solid;
 	outline-width: 5px;
@@ -31,10 +57,11 @@ h3 a{
 	color:#cc339a;
 }
 
-.brandpic{
-	width: 50%;
-    height: 50%;
-    }
+small{
+		font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+}
+
+
 
 @media (max-width: 900px){
 
@@ -80,14 +107,13 @@ h3 a{
 /* Footer CSS */
 footer { 
  	position:fixed;
-   	left:0px;
-   	bottom:0px;
-    display: block;
+    display: inline-flex;
     background-color: #b82e8a;
     color: #ffffff;
     height: 50px;
     width:100%;
 }
+
 
 .likeus{
     float: right;
@@ -119,4 +145,119 @@ footer {
 .pic-footer {
     width: 25px;
     height: 25px;
+}
+
+
+/* Footer CSS */
+.generic-anchor {
+  color: white;
+}
+
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  background: #cc339a;
+  margin-top: auto;
+  width: 100%
+}
+
+
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid white;
+  width: calc(100% - 20px)
+}
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: #cc339a;
+  padding: 0 20px
+}
+
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em;
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif";
+  font-weight: bold;
+  text-shadow: 1px 1px gray; 
+  color: white;
+}
+
+.footer-social-small {
+  font-size: .75em;
+  padding: 0px 20px;
+  color:white;
+}
+
+.footer-social-overlap > a {
+  font-size: 3em
+}
+
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+}
+@media only screen and (max-width: 568px) {
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
 }

@@ -6,8 +6,8 @@
   margin: 0px 5px 0px 5px;
   padding: 0px 0px 0px
   width: 100%;
-
 }
+
 .container-fluid a { 
   text-decoration: none;
   display: inline;
@@ -22,17 +22,14 @@
       width: 100%;
   }
 
- h1{
-
+h1{
   font-weight: bold;
   text-shadow: 1px 1px gray;
-
  }
 
- text{
-
+body{
   font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-
+  background-color:white;
  }
 
 .brandpic{
@@ -299,44 +296,128 @@ small {
 }
 
 
+.col-sm-12{
+  border-top:solid 1px;
+  background:white;
+  text-align:center;
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif";
+  padding:10px;
+}
+
+.yourstorysubmit{
+  padding:5px;
+}
+
 /* Footer CSS */
-footer { 
-    display: block;
-    background-color: #b82e8a;
-    color: #ffffff;
-    height: 50px;
-    width:100%;
-
-
-}
-.likeus{
-    float: right;
-    padding-right: 15px;
-}
-
-#social-buttons {
-  margin-top: 50px;
-}
-
-.btn-twitter {
-  background-color: #00acee;
-  border-color: #009ad5;
+.generic-anchor {
   color: white;
 }
 
-.btn-facebook {
-  background-color: #4868ac;
-  border-color: #314776;
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  background: #cc339a;
+  margin-top: auto;
+  width: 100%
+}
+
+
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid white;
+  width: calc(100% - 20px)
+}
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: #cc339a;
+  padding: 0 20px
+}
+
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em;
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif";
+  font-weight: bold;
+  text-shadow: 1px 1px gray; 
   color: white;
 }
 
-.btn-pinterest {
-  background-color: #b62f26;
-  border-color: #b62f26;
-  color: white;
+.footer-social-small {
+  font-size: .75em;
+  padding: 0px 20px;
+  color:white;
 }
 
-.pic-footer {
-    width: 25px;
-    height: 25px;
+.footer-social-overlap > a {
+  font-size: 3em
+}
+
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+}
+@media only screen and (max-width: 568px) {
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
 }
