@@ -1,6 +1,8 @@
 
 /*CSS for Nav Bar*/
 .container-fluid li{
+
+  
   display: inline;
   text-align: center; 
   margin: 0px 5px 0px 5px;
@@ -8,13 +10,16 @@
   width: 100%;
 
 }
-.container-fluid a { 
+.container-fluid a {
+      
   text-decoration: none;
   display: inline;
   font-size: 1.2em;
   text-shadow: 2px 2px #000;
+
   transition: .3s background-color;
   opacity: 1;
+
  }
 
 .affix {
@@ -200,23 +205,23 @@ footer {
   margin-top: 50px;
 }
 
-.btn-twitter {
+.[btn-twitter] {
   background-color: #00acee;
   border-color: #009ad5;
   color: white;
-  position: left;
+  position: right;
 }
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
   color: white;
-  position: left;
+  position: right;
 }
 
 .btn-pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
-  position: left;
+  position: right;
 }
