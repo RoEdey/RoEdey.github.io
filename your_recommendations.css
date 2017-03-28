@@ -96,7 +96,7 @@
 }
 
 
-.navbar-default {
+.navbar-default .navbar-collapse {
   background-color: #b82e8a;
   border-color: #a7297e;
 }
@@ -148,6 +148,11 @@
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
+}
+
+.navbar-default .navbar-nav{
+  color: 
+
 }
 
 @media (max-width: 767px) {
