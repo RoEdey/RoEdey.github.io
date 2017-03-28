@@ -1,43 +1,40 @@
 
 /*CSS for Nav Bar*/
 .container-fluid li{
-
-  
   display: inline;
   text-align: center; 
   margin: 0px 5px 0px 5px;
   padding: 0px 0px 0px
   width: 100%;
-
 }
-.container-fluid a {
-      
+
+.container-fluid a { 
   text-decoration: none;
   display: inline;
   font-size: 1.2em;
   text-shadow: 2px 2px #000;
-
   transition: .3s background-color;
   opacity: 1;
-
  }
 
 .affix {
       top: 0;
       width: 100%;
   }
- h1{
 
+h1{
   font-weight: bold;
   text-shadow: 1px 1px gray;
-
  }
 
- text{
-
+body{
   font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-
+  background-color:white;
  }
+
+.brandpic{
+  height: 150%;
+}
 
  .container-fluid a:hover {
 
@@ -145,6 +142,22 @@
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #a7297e;
+  }
 }
 
 /* corousel*/
