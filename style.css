@@ -48,11 +48,14 @@ body{
 }
 
   h1{
-    outline-style: solid;
-    outline-width: 3px;
-    outline-color: white;
-    color:#cc339a;
-      font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 5px;
+    border-color: white;
+    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+    width: auto;
+    padding-left: 6px;
+    text-shadow: 2px 2px gray;
   }
 
 .row{
