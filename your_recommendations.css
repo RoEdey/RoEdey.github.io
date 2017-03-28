@@ -205,21 +205,21 @@ footer {
   margin-top: 50px;
 }
 
-.[btn-twitter] {
+.twitter {
   background-color: #00acee;
   border-color: #009ad5;
   color: white;
   position: right;
 }
 
-.btn-facebook {
+.facebook {
   background-color: #4868ac;
   border-color: #314776;
   color: white;
   position: right;
 }
 
-.btn-pinterest {
+.pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
