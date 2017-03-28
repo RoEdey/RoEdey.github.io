@@ -1,5 +1,6 @@
-/*CSS for Nav Bar*/
 .container-fluid li{
+
+  
   display: inline;
   text-align: center; 
   margin: 0px 5px 0px 5px;
@@ -7,96 +8,45 @@
   width: 100%;
 
 }
-.container-fluid a { 
+.container-fluid a {
+      
   text-decoration: none;
   display: inline;
   font-size: 1.2em;
   text-shadow: 2px 2px #000;
+
   transition: .3s background-color;
   opacity: 1;
+
  }
-.toppic {	
-		text-align: center;
-		color:white;
-		font-family: Comic;
-		font-weight: bold;
-		font-size:2.5em;
-		margin-top:50px;
-		background-size: cover;
 
-	}
+.affix {
+      top: 0;
+      width: 100%;
+  }
 
-.toppic h1 {
-	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-	padding: 50px 20px 50px 20px;
-	outline-style: solid;
-	outline-width: 5px;
-	outline-color: white;
-	font-size:50px;
-	letter-spacing: 8px;
-	background-color:cornflowerblue;
 
-/*	
-	
-	border:solid;
-	border-width: 5px;
-	line-height:100%;
-	position:relative;*/
+ h1{
+
+  font-weight: bold;
+  text-shadow: 1px 1px gray;
+
+ }
+
+ text{
+
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
 }
 
-.toppic h2{
-	font-style: italic;
-	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	font-size:25px;
-	color:black;
-}
-.thumbnails{
-	max-width:100%;
-	max-height: 100%;
-	border-radius: 15px;
-	border: 1px solid #ddd;
-	padding: 15px;
-	width: 150px;
-	float:left;
-	margin-left: 15px;
-	margin-right:15px;
-}
+.container-fluid a:hover {
 
-.col-sm-12 {
-	position:center;
-	padding: 50px;
-	margin-left: 15px;
-	margin-right: 20px;
-	border-bottom: dashed;
-	border-top: dashed;
-}
+  background-color: #cc339a;
+  font-weight:bold;
 
- .col-sm-12:hover {
-	    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.9);
-	}
-
-p {
-	margin-left: 10px;
-	margin-right: 15px;
-	padding:10px;
-	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	font-weight: bold;
-	font-size-adjust: auto;
-	object-position: center;
-}
-
-small {
-	margin-left: 10px;
-	margin-right: 15px;
-	padding:10px;
-	position:center;
-	font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	font-style: italic;
-	font-size-adjust: auto;
 }
 
 
+/* corousel*/
 
 .mycarousel {
 
@@ -110,22 +60,9 @@ small {
 	position: absolute;
 	left: 25%;
 	top: 60%;
-	font-size: 5em;
+	font-size: 7em;
 	color: #fff;
 
-}
-
-.serif {
-	font-family: Impact; 
-	font-size: 50em
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-	padding: 0px 20px 0px 20px;
-}
-
-
-
-	body {
-		background: #fff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -139,160 +76,14 @@ small {
 			transition: none !important;
 		}
 
-	body, input, select, textarea {
-		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
-		line-height: 1.65em;
-	}
 
-	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px #666;
-		color: inherit;
-		text-decoration: none;
-	}
 
-		a:hover {
-			border-bottom-color: transparent !important;
-			color: #6bd4c8;
-		}
 
-	strong, b {
-		color: #555;
-		font-weight: 400;
-	}
+}
 
-	em, i {
-		font-style: italic;
-	}
-
-	p {
-		margin: 0 0 2em 0;
-		font-size: 2.5em
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: #555;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-	}
-
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-	h1 {
-		font-size: 2.25em;
-		line-height: 1.35em;
-	}
-
-	h2 {
-    font-family: Tahoma, sans-serif;
-
-    	margin: 20px 0 20px 0;
-    	padding: 30px;
-		font-size: 2em;
-		line-height: 1.35em;
-	}
-
-	h3 {
-		font-size: 1.35em;
-		line-height: 1.5em;
-	}
-
-	h4 {
-		font-size: 1.25em;
-		line-height: 1.5em;
-	}
-
-	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
-	}
-
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
-	hr {
-		border: 0;
-		border-bottom: solid 1px rgba(144, 144, 144, 0.5);
-		margin: 2em 0;
-	}
-
-		hr.major {
-			margin: 3em 0;
-		}
-
-	blockquote {
-		border-left: solid 4px rgba(144, 144, 144, 0.5);
-		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
-
-	code {
-		background: rgba(144, 144, 144, 0.075);
-		border-radius: 4px;
-		border: solid 1px rgba(144, 144, 144, 0.5);
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
-
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2em 0;
-	}
-
-		pre code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
-
-	.align-left {
-		text-align: left;
-	}
-
-	.align-center {
-		text-align: center;
-	}
-
-	.align-right {
-		text-align: right;
-	}
-
-	.mycarousel {
-
-	height: 600px;
-	width: 1000px; 
-	margin-bottom: 20px;
-	overflow: hidden;
-
+.jumbotron {
+	position: center;
+	background-color: #e29898;
 }
 
 p {
@@ -300,25 +91,36 @@ p {
 }
 
 
+footer { 
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 60px;
+    padding-left: 10px;
+
+
 }
 #social-buttons {
   margin-top: 50px;
 }
 
-.btn-twitter {
+.[btn-twitter] {
   background-color: #00acee;
   border-color: #009ad5;
   color: white;
+  position: right;
 }
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
   color: white;
+  position: right;
 }
 
 .btn-pinterest {
   background-color: #b62f26;
   border-color: #b62f26;
   color: white;
+  position: right;
 }

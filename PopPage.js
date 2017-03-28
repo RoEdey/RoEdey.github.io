@@ -11,7 +11,9 @@ $(document).ready(function(){
 var Counter1 = 769
 var Counter2 = 554
 var Counter3 = 324
-
+var Counter4 = 123
+var Counter5 = 59
+var Counter6 = 10
 
 $("#LikeButton1").click(function(){
 	Counter1 = Counter1 +1 
@@ -27,10 +29,19 @@ $("#LikeButton3").click(function(){
 	Counter3 = Counter3 +1 
 	$(".LikeCounter3").text(Counter3)
     	});
-	
-$( "p" ).click(function() {
-  $( this ).scroll();
-});
+$("#LikeButton4").click(function(){
+	Counter4 = Counter4 +1 
+	$(".LikeCounter4").text(Counter4)
+    	});
+$("#LikeButton5").click(function(){
+	Counter5 = Counter5 +1 
+	$(".LikeCounter5").text(Counter5)
+    	});
+$("#LikeButton6").click(function(){
+	Counter6 = Counter6 +1 
+	$(".LikeCounter6").text(Counter6)
+    	});
 
-	}); 
+}); 
+
 
