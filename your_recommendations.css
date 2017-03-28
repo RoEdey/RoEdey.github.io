@@ -456,6 +456,7 @@ footer {
 }
 #social-buttons {
   margin-top: 50px;
+  position: right;
 }
 
 .twitter {
