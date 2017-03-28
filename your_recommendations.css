@@ -252,7 +252,7 @@
 /*CSS NAVBAR end */
 
  h1{
->>>>>>> origin/master
+
 
 h1{
   font-weight: bold;
@@ -264,8 +264,9 @@ body{
   background-color:white;
  }
 
-.brandpic{
+.brandpic {
   height: 150%;
+  
 }
 
  .container-fluid a:hover {
