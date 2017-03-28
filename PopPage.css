@@ -421,3 +421,90 @@ footer {
     font-size: 2.24em
   }
 }
+
+
+/* Footer CSS */
+footer { 
+    display: block;
+    background-color: #b82e8a;
+    color: #ffffff;
+    height: 50px;
+    padding-left: 10px;
+    position:;
+
+}
+.likeus{
+
+    float: right;
+    padding-right: 15px;
+
+}
+.twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+  position: right;
+}
+
+.facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+  position: right;
+}
+
+.pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+  position: right;
+}
+
+
+/* modal css*/
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+
+}
+
+.btn-info{
+
+    background-color: #b82e8a;
+    border-color: #b82e8a;
+    z-index: 1119999;
+    text-shadow: 2px 2px #000;
+    padding-top: 13px;
+}
+
+#test-button:hover{
+    border-color: #b82e8a;
+    font-weight: bold;
+    background-color: #b82e8a
+
+}
+
+#test-button:active{
+    background-color:#b82e8a;
+
+}

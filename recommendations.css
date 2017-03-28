@@ -60,7 +60,9 @@
       top: 0;
       width: 100%;
   }
-
+.brandpic{
+  height: 150%;
+}
 
  h1{
 
@@ -446,6 +448,26 @@ footer {
     float: right;
     padding-right: 15px;
 
+}
+.twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+  position: right;
+}
+
+.facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+  position: right;
+}
+
+.pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+  position: right;
 }
 
 /* modal css*/
