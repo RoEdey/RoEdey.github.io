@@ -35,26 +35,49 @@ body{
 	text-align: center;
 }
 
-h3{
-	padding:10px;
+.border{
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 5px 0px 5px;
+  border-radius: 10px;
+
+
 }
 
-.threepoints{
-	margin-top:50px;
+  h1{
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: white;
+    color:#cc339a;
+      font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  }
+
+.row{
+
+  margin: 5px 40px 5px 40px;
+  position: relative;
+
+
 }
 
-h5{
-	padding:10px;
-}
-
-
-h3 a{
-	padding: 0px 20px 0px 20px;
+h2 a{
+	padding: 0px 10px 0px 20px;
 /*	outline-style: solid;
 	outline-width: 5px;
 	outline-color: white;*/
 	align-content: auto;
 	color:#cc339a;
+}
+
+h2 a:hover{
+
+  color: #cc339a;
+  font-weight: bold;
+  text-decoration: none;
+
 }
 
 small{
@@ -94,18 +117,14 @@ small{
 	.title{
 		top: 40%;
 	}
-/*	h1{
-		outline-style: solid;
-		outline-width: 3px;
-		outline-color: white;
-		color:#cc339a;
-	    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	}*/
+
+
 }
 
 
 
-/* Footer CSS */
+/* Footer CSS not needed on the landing page 
+
 footer { 
  	position:fixed;
     display: inline-flex;
@@ -114,6 +133,7 @@ footer {
     height: 50px;
     width:100%;
 }
+
 
 
 .likeus{
@@ -149,7 +169,7 @@ footer {
 }
 
 
-/* Footer CSS */
+
 .generic-anchor {
   color: white;
 }
@@ -262,3 +282,5 @@ footer {
     font-size: 2.24em
   }
 }
+
+*/

@@ -1,31 +1,38 @@
 
-/*CSS for Nav Bar*/
-.container-fluid li{
+.title {
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 50px;
+}
 
-  
+/* CSS for NAVBAR */
+
+
+.container-fluid li{
   display: inline;
   text-align: center; 
   margin: 0px 5px 0px 5px;
   padding: 0px 0px 0px
   width: 100%;
-
 }
-.container-fluid a {
-      
+
+.container-fluid a { 
   text-decoration: none;
   display: inline;
   font-size: 1.2em;
   text-shadow: 2px 2px #000;
-
   transition: .3s background-color;
   opacity: 1;
-
  }
 
 .affix {
       top: 0;
       width: 100%;
   }
+<<<<<<< HEAD
+=======
+
+
  h1{
 
   font-weight: bold;
@@ -36,8 +43,230 @@
  text{
 
   font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+}
 
+.container-fluid a:hover {
+
+  background-color: #cc339a;
+  font-weight:bold;
+
+}
+@media (max-width: 950px){
+
+  .container-fluid a {  
+    font-size:1em;
+  }
+}
+
+@media (max-width:700px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+
+.navbar-default .navbar-collapse {
+  background-color: #b82e8a;
+  border-color: #a7297e;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #a7297e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #a7297e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #a7297e;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #a7297e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav{
+  color: 
+
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #a7297e;
+  }
+}
+
+/*body */
+.toppic { 
+    text-align: center;
+    color:white;
+    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+    margin-top:50px;
+    background-size: cover;
+    border-bottom:solid;
+;
+  }
+
+.toppic h1 {
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  padding: 50px 20px 50px 20px;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: white;
+  font-size:50px;
+  letter-spacing: 8px;
+  background-color:#b82e8a;
+}
+
+.toppic h2{
+  font-style: italic;
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  font-size:20px;
+  color:black;
+  margin: 30px 30px 30px 30px;
+
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+
+}
+
+.btn-info{
+
+    background-color: #b82e8a;
+    border-color: #b82e8a;
+    z-index: 1119999;
+    text-shadow: 2px 2px #000;
+    padding-top: 13px;
+}
+
+#test-button:hover{
+    border-color: #b82e8a;
+    font-weight: bold;
+    background-color: #b82e8a
+
+}
+
+#test-button:active{
+    background-color:#b82e8a;
+
+}
+
+/*CSS NAVBAR end */
+
+ h1{
+>>>>>>> origin/master
+
+h1{
+  font-weight: bold;
+  text-shadow: 1px 1px gray;
  }
+
+body{
+  font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  background-color:white;
+ }
+
+.brandpic{
+  height: 150%;
+}
 
  .container-fluid a:hover {
 
@@ -147,7 +376,24 @@
   color: #ffffff;
 }
 
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #a7297e;
+  }
+}
+
 /* corousel*/
+
 
 .mycarousel {
 
@@ -156,6 +402,13 @@
 	margin-bottom: 20px;
 	overflow: hidden;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 120%;
+    margin: auto;
+}
+
 .subtitle {
 
 	position: absolute;
@@ -203,6 +456,7 @@ footer {
 }
 #social-buttons {
   margin-top: 50px;
+  position: right;
 }
 
 .twitter {
