@@ -89,6 +89,7 @@ small{
 @media (max-width: 650px){
 	.col-m-1{
 		max-height: 200px;
+		height: 100%;
 	}
 	.title{
 		top: 40%;
