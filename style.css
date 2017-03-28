@@ -42,9 +42,18 @@ body{
   border-color: black;
   padding: 0px 20px 0px 20px;
   margin: 0px 5px 0px 5px;
+  border-radius: 10px;
 
 
 }
+
+  h1{
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: white;
+    color:#cc339a;
+      font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
+  }
 
 .row{
 
@@ -108,13 +117,8 @@ small{
 	.title{
 		top: 40%;
 	}
-/*	h1{
-		outline-style: solid;
-		outline-width: 3px;
-		outline-color: white;
-		color:#cc339a;
-	    font-family: "trebuchet MS","andale mono", "Calibri", "serif"; 
-	}*/
+
+
 }
 
 

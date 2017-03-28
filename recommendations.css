@@ -480,6 +480,8 @@ footer {
     background-color: #b82e8a;
     border-color: #b82e8a;
     z-index: 1119999;
+    text-shadow: 2px 2px #000;
+    padding-top: 13px;
 }
 
 #test-button:hover{
