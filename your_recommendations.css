@@ -29,8 +29,6 @@
       top: 0;
       width: 100%;
   }
-<<<<<<< HEAD
-=======
 
 
  h1{
@@ -151,7 +149,7 @@
 }
 
 .navbar-default .navbar-nav{
-  color: 
+  color: #ffffff;
 
 }
 
@@ -395,6 +393,9 @@ body{
 
 /* corousel*/
 
+.navbar-nav{
+  color: #ffffff;
+}
 
 .mycarousel {
 
